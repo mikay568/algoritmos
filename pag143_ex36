@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+void main()
+{float D,V,T;
+printf("digite seu dinheiro e o valor total da compra a ser realizada:");
+scanf("%f %f",&D,&V);
+T=D-V;
+if(T<0)
+printf("dinheiro insuficiente");
+if(0<=T)
+printf("troco a ser devolvido:%.0f",T);
+}
