@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+void main ()
+{ float N;
+printf("escreva a nota do aluno\n");
+ scanf("%f",&N);
+ if(N<=3.5)
+ {printf("nota:E");}
+ if((3.5<N)&&(N<=5.0))
+{ printf("nota:D");}
+ if((5.0<N)&&(N<=7.0))
+{ printf("nota:C");}
+ if((7.0<N)&&(N<=9.0))
+{ printf("nota:B");}
+ if(9.0<N)
+ {printf("nota:A");}
+   }
