@@ -10,34 +10,33 @@ float main()
     {
         printf("aprovado");
     }
-    else  if(Md1<7)
+    if(Md1<7)
     {   printf("escreva a nota do exame:");
         scanf("%f",&N5);
         Md2= (Md1+N5)/2;
-    }
-      else   if(Md2 >= 5)
-           {
-            printf("aprovado por exame:%.2f",Md2);
-        }
-    else    if(Md2<5)
+        if(Md2 >= 5)
         {
-            printf("reprovado:%.2f",Md2);
+            printf("aprovado por exame:%.2f\n mencao:",Md2);
         }
-    else      if((Md2<=1)&&(Md2>=4))
-     {
+       if(Md2<5)
+        {
+            printf("reprovado:%.2f\n mencao:",Md2);
+        }
+         if((Md2>=1)&&(Md2<=4))
+        {
          printf("I");
-         }
-    else    if((Md2<4)&&(Md2>=6))
-     {
+        }
+        if((Md2>4)&&(Md2<=6))
+        {
          printf("R");
-         }
-    else   if((Md2<6)&&(Md2>=8))
+        }
+      if((Md2>6)&&(Md2<=8))
       {
           printf("B");
           }
-    else   if((Md2<8)&&(Md2>=10))
+       if((Md2>8)&&(Md2<=10))
        {
            printf("MB");
            }
      }
-
+}
