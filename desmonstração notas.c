@@ -8,7 +8,23 @@ float main()
     printf("media:%.2f\n",Md1);
     if (Md1 >= 7)
     {
-        printf("aprovado");
+        printf("aprovado\nmencao:");
+          if((Md1>=1)&&(Md1<=4))
+        {
+         printf("I");
+        }
+        if((Md1>4)&&(Md1<=6))
+        {
+         printf("R");
+        }
+      if((Md1>6)&&(Md1<=8))
+      {
+          printf("B");
+          }
+       if((Md1>8)&&(Md1<=10))
+       {
+           printf("MB");
+           }
     }
     if(Md1<7)
     {   printf("escreva a nota do exame:");
@@ -40,3 +56,4 @@ float main()
            }
      }
 }
+
