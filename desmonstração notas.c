@@ -16,11 +16,11 @@ float main()
         Md2= (Md1+N5)/2;
         if(Md2 >= 5)
         {
-            printf("aprovado por exame:%.2f\n mencao:",Md2);
+            printf("aprovado por exame:%.2f\nmencao:",Md2);
         }
        if(Md2<5)
         {
-            printf("reprovado:%.2f\n mencao:",Md2);
+            printf("reprovado:%.2f\nmencao:",Md2);
         }
          if((Md2>=1)&&(Md2<=4))
         {
