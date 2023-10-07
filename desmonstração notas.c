@@ -2,7 +2,7 @@
 float main()
 {
     float Md1, Md2, N1, N2, N3, N4, N5;
-    printf("escreva as 4 primeiras notas da media1:");
+    printf("escreva as 4 primeiras notas da media:");
     scanf("%f %f %f %f", &N1,&N2,&N3,&N4);
     Md1 = (N1+N2+N3+N4)/4;
     printf("media:%.2f\n",Md1);
