@@ -13,17 +13,17 @@ float main()
         printf("aprovado\nmencao:");
       if((Md1>4)&&(Md1<=6))
         {
-          printf("R");
-      if((Md1>6)&&(Md1<=8))
+          printf("R");}
+         if((Md1>6)&&(Md1<=8))
       {
           printf("B");
           }
-       if((Md1>8)&&(Md1<=10))
+         if((Md1>8)&&(Md1<=10))
        {
            printf("MB");
            }
         }
-     printf("\n+=====================+\n"); }
+     printf("\n+=====================+\n");
     if(Md1<5)
     { printf("-------------------------------------\n");
           printf("escreva a nota da recuperacao:");
