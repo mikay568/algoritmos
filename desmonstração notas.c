@@ -8,9 +8,12 @@ float main()
     printf("--------------------------------------\n");
     Md1 = (N1+N2+N3+N4)/4;
     printf("media:%.2f\n",Md1);
-    if (Md1 >= 7)
-    {printf("+======================+\n");
+    if (Md1>= 5){
+    printf("+======================+\n");
         printf("aprovado\nmencao:");
+      if((Md1>4)&&(Md1<=6))
+        {
+          printf("R");
       if((Md1>6)&&(Md1<=8))
       {
           printf("B");
@@ -19,8 +22,9 @@ float main()
        {
            printf("MB");
            }
+        }
      printf("\n+=====================+\n"); }
-    if(Md1<7)
+    if(Md1<5)
     { printf("-------------------------------------\n");
           printf("escreva a nota da recuperacao:");
         scanf("%f",&N5);
