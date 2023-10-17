@@ -22,14 +22,14 @@ float main()
      printf("\n+=====================+\n"); }
     if(Md1<7)
     { printf("-------------------------------------\n");
-          printf("escreva a nota do exame:");
+          printf("escreva a nota da recuperacao:");
         scanf("%f",&N5);
       printf("--------------------------------------\n");
         Md2= (Md1+N5)/2;
         if(Md2 >= 5)
        {
         printf("+======================+\n");
-          printf("aprovado por exame:%.2f\nmencao:",Md2);
+          printf("aprovado por recuperacao:%.2f\nmencao:",Md2);
         }
         if(Md2<5)
         {printf("+======================+\n");
